@@ -1,6 +1,25 @@
+html {
+  font-size: 18pt;
+}
+
 .flex-container {
   display: flex;
   background-color: black;
   color: white;
   font-family: Helvetica;
+}
+
+.logo {
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  height: 1.5rem;
+  width: 100%;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+.logo img {
+  width: auto;
+  height: 1.5rem;
+  padding: 0 1rem 0 0.5rem;
 }
