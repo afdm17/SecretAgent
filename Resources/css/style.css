@@ -9,6 +9,7 @@ html {
   font-family: Helvetica;
 }
 
+/* Header */
 .logo {
   font-size: 1rem;
   display: flex;
@@ -23,3 +24,45 @@ html {
   height: 1.5rem;
   padding: 0 1rem 0 0.5rem;
 }
+/* Image */
+.new {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+}
+
+.new-container {
+  background-color: black;
+  background-position: left;
+  width: 20rem;
+  margin-top: 9rem;
+  margin-bottom: 6rem;
+}
+
+.type {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0.25rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+/* Media
+@media only screen and (min-width: 600px){
+  .logo, .new-container, nav span, items, footer span {
+    width: 960px;
+  }
+} */
