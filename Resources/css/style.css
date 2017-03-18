@@ -81,11 +81,16 @@ nav ul {
   padding: 0.75rem 0;
   list-style: none;
 }
+
+.mobile-nav {
+  display: none;
+}
+
  /* Products */
 .product {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 0;
+  margin: 3rem 0px 0px;
 }
 
 .items {
@@ -141,9 +146,28 @@ footer {
   padding: 5rem 0px;
 }
 
-/* Media
-@media only screen and (min-width: 600px){
-  .logo, .new-container, nav span, items, footer span {
-    width: 960px;
+/* Media */
+@media only screen and (max-width: 1024px){
+  body {
+    font-size: 16px;
   }
-} */
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+  .items {
+    width: 47%;
+    justify-content: space-between;
+
+  }
+  .product .glasses {
+    display: none;
+  }
+
+  .product .watch {
+    align-items: flex-end;
+  }
+}
